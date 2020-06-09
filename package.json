@@ -8,10 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "prettier": "prettier --config .prettierrc --write index.js index.d.ts"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/heyman333/react-native-responsive-fontsize"
-  },
+  "repository": "git+https://github.com/heyman333/react-native-responsive-fontsize",
   "keywords": [
     "react-native",
     "react-native-component",
