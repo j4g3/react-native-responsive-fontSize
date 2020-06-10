@@ -12,7 +12,7 @@ const deviceHeight =
     : standardLength;
 
 export function RFPercentage(percent, type) {
-  if (type === "pixel") {
+  if (type.lowercase() === "pixel") {
     const heightPercent = (percent * deviceHeight) / 100;
     return `${Math.round(heightPercent)}px`;
   } else {
